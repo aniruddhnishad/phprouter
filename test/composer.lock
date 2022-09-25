@@ -1,0 +1,74 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2757cd3398a326925d52a22537d86e27",
+    "packages": [
+        {
+            "name": "aniruddh/phprouter",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aniruddhnishad/phprouter.git",
+                "reference": "3d7fd0e47669433ad41d8b2ae921909ea2685d04"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aniruddhnishad/phprouter/zipball/3d7fd0e47669433ad41d8b2ae921909ea2685d04",
+                "reference": "3d7fd0e47669433ad41d8b2ae921909ea2685d04",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aniruddh\\Router\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aniruddh Nishad",
+                    "email": "aniruddh@aniruddh.me",
+                    "homepage": "https://aniruddh.me",
+                    "role": "Creator/Developer"
+                }
+            ],
+            "description": "A super fast simple router for PHP",
+            "homepage": "https://github.com/aniruddhnishad/phprouter",
+            "keywords": [
+                "PHP Route",
+                "fast php router",
+                "php router",
+                "php routing",
+                "phproute",
+                "phprouter",
+                "phprouting",
+                "router",
+                "routing",
+                "simple php router"
+            ],
+            "support": {
+                "issues": "https://github.com/aniruddhnishad/phprouter/issues",
+                "source": "https://github.com/aniruddhnishad/phprouter/tree/v1.0.0"
+            },
+            "time": "2022-09-25T11:20:55+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

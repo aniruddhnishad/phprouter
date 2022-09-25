@@ -1,0 +1,5 @@
+{
+    "require": {
+        "aniruddh/phprouter": "^1.0"
+    }
+}
