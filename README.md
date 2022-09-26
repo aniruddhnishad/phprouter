@@ -74,7 +74,7 @@ $router->add('/users/\d+', 'callback');
 
 ```php
 // Example with middleware
-$route->addRoute('/users/\d+', 'callback', ['GET'], ['before'=> callabck, 'after'=> callback]);
+$route->add('/users/\d+', 'callback', ['GET'], ['before'=> callabck, 'after'=> callback]);
 ```
 
 ```php
