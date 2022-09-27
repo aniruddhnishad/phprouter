@@ -133,7 +133,7 @@ class Router {
         $url = strtok($_SERVER['REQUEST_URI'] ? $_SERVER['REQUEST_URI'] : '/', '?');
         if(substr($url, -1) == '/') {
             $url = rtrim($url, '/');
-            $url = $url !== '' ? $this->redirect(301, $url) : $url;
+            $url = $url !== '' ? $this->redirect(301, '/' . $url) : $url;
         }
         return $url;
     }
@@ -141,7 +141,7 @@ class Router {
     public function trailingSlash() {
         $url = strtok($_SERVER['REQUEST_URI'] ? $_SERVER['REQUEST_URI'] : '/', '?');
         if(substr($url, -1) !== '/') {
-            $url = $url !== '/' ? $this->redirect(301, $url . '/') : $url;
+            $url = $url !== '/' ? $this->redirect(301, '/' . $url . '/') : $url;
         }
         return $url;
     }
