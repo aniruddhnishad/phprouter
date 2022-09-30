@@ -1,14 +1,14 @@
 <?php
-
-require_once(__DIR__ . '/vendor/autoload.php');
+/*
+require_once(__DIR__ . '/../src/Router.php');
 
 use Aniruddh\Router\Router;
 
-$router = new Router();
+$router = new Router(true, 1);
 
 $router->add('/', function() {
 
-    echo 'get Home page';
+   echo 'get Home page';
 });
 
 $router->add('/test', function() {
@@ -36,8 +36,11 @@ $router->add('/test2', function() {
     echo 'get and post test2';
 }, ['GET', 'POST']);
 
-$router->set404(function(){
-    echo "<h1>404 not found! </h1> url: " . htmlentities($_SERVER['REQUEST_URI']);
-});
+$router->add('/test3', function() {
+
+    echo 'get and post test3';
+}, ['GET', 'POST'], ['before' =>function(){echo "before";}, 'after' => function(){echo "after";}]);
+
 
 $router->run();
+*/
